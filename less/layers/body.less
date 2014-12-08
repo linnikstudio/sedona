@@ -1,0 +1,203 @@
+
+.intro{
+    background: url('../img/header-bg.jpg') no-repeat;
+    min-height: 514px;
+    padding-bottom: 50px;
+    &__title{
+        padding-top: 569px;
+        text-align: center;
+        text-transform: uppercase; 
+    }
+    &__text{
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 16px;
+    }
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.section-about{
+    &__cont{
+        width: 400px;
+        height: 256px;
+        background: #81b3d2;
+        &-title{
+            padding-top: 53px;
+            color:#fff;
+            text-align: center;
+            .number{
+                display: block;
+                font-size: 14px;
+                font-weight: 400;
+                padding-top: 8px;
+            }
+        }
+        &-text{
+            text-align: center;
+            color:#fff;
+            padding-top: 14px;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.assortment{
+    margin-top: 58px;
+    margin-bottom: 76px;
+    .assortment-box{
+        width: 400px;
+        float: left;
+        &__icon{
+            margin:0 auto;
+            display: block;
+        }
+        &__title{
+            text-align: center;
+            padding-top: 29px;
+            text-transform: uppercase;
+        }
+        &__text{
+            text-align: center;
+            text-transform: uppercase;
+            padding-top: 17px;
+        }
+    }   
+}
+
+
+.advantages{
+    padding-top: 45px;
+    padding-bottom: 61px;
+    background: #eeeeee;
+    &-box{
+        width:400px;
+        float: left;
+        &__title{
+            text-align: center;
+        }
+        &__text{
+            text-align: center;
+            text-transform: uppercase;
+            padding-top: 16px;
+        }
+    }
+    .number{
+        display: block;
+        font-size: 14px;
+        padding-top: 7px;
+    }
+}
+
+.interest{
+    &__title{
+        text-align: center;
+        margin-top: 55px;
+        font-size: 30px; 
+    }
+    &__text{
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 31px; 
+    } 
+}
+
+.map{
+    position: relative;
+    &__search{
+        position: absolute;
+        width: 569px;
+        margin:0 auto;
+        left: (@base-width/2)-284;
+        top:46px;
+        z-index: 3;
+        &-header{
+            background: #766357;
+            text-align: center;
+            padding: 30px 0;
+            color:#fff;
+        }
+        &-body{
+            background: #fff;
+            padding:55px;
+            .map__form-box{
+                padding-bottom: 29px;
+                .map__form-label{
+                    font-weight: 700;
+                    display: block;
+                    float: left;
+                    width: 110px;
+                    padding-top: 8px;
+                    text-transform: uppercase;
+                }
+                .map__form-label--2{
+                    font-weight: 700;
+                    display: block;
+                    float: left;
+                    width: 62px;
+                    padding-top: 8px;
+                    text-transform: uppercase;
+                    padding-left: 53px;
+                }
+                .map__form-date{
+                    float: left;
+                    display: block;
+                    width: 323px;
+                    background: #f2f2f2;
+                    border: 0;
+                    padding: 7px 10px 10px 15px;
+                    font-family: @font-family-base;
+                    font-weight: 700;   
+                }
+                .map__adult{
+                    float: left;
+                    display: block;
+                    width: 92px;
+                    background: #f2f2f2;
+                    border: 0;
+                    padding: 10px 10px 10px 15px;
+                    font-family: @font-family-base;
+                    font-weight: 700;
+                    text-align: center;
+                }
+                .map__kids{
+                    float: left;
+                    display: block;
+                    width: 92px;
+                    background: #f2f2f2;
+                    border: 0;
+                    padding: 10px 10px 10px 15px;
+                    font-family: @font-family-base;
+                    font-weight: 700;
+                    text-align: center;
+                }
+            }
+            .map__form-btn{
+                background: #81b3d2;
+                border: none;
+                width: 458px;
+                color:#fff;
+                padding: 17px 0 16px 0;
+                font-weight: 700;
+                font-size: 21px;
+                margin-top: 26px;
+            }
+        }
+    }
+    &:before{
+        content: '';
+        position: absolute;
+        width: 1200px;
+        height: 593px;
+        background: url('../img/map.jpg') no-repeat;
+        top:133px;
+        z-index: 1;
+    }
+}
+

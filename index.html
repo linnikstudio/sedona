@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>pink</title>
+    <title>Sedona</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=320">
-    <link href="css/normalize.css.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic-ext,latin' rel='stylesheet' type='text/css'>
   	<!--[if lt IE 9]>
  	 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   	<![endif]-->
@@ -26,51 +27,51 @@
         </header>
         <div class="main">
             <div class="intro">
-                <h1>СЕДОНА — небольшой городок в АРИЗОНЕ, <br>зАСЛУЖИвающий большего!</h1>
-                <p>Рассмотрим 5 причин, по которым Седона круче чем гранд каньон!</p>
+                <h1 class="intro__title">СЕДОНА — небольшой городок в АРИЗОНЕ, <br>зАСЛУЖИвающий большего!</h1>
+                <p class="intro__text">Рассмотрим 5 причин, по которым Седона круче чем гранд каньон!</p>
             </div>
             <div class="section-about  reset">
-                <div class="section-about-cont  float-left">
-                    <h2>НАСТОЯЩИЙ <br>ГОРОДОК <span class="number">№1</span></h2>
-                    <p>СЕДОНА НЕ АТРАКЦИОН ДЛЯ ТУРИСТОВ, ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
+                <div class="section-about__cont  float-left">
+                    <h2 class="section-about__cont-title">НАСТОЯЩИЙ <br>ГОРОДОК <span class="number">№1</span></h2>
+                    <p class="section-about__cont-text">СЕДОНА НЕ АТРАКЦИОН ДЛЯ ТУРИСТОВ, <br> ТАМ ТЕЧЕТ СВОЯ ЖИЗНЬ</p>
                 </div>
                 <img src="img/about-1.jpg" alt="about-1" class="section-about-img  float-right">
             </div>
-            <div class="assortment">
+            <div class="assortment reset">
                 <section class="assortment-box">
                     <img src="img/house.png" alt="house" class="assortment-box__icon">
-                    <h3 class="assortment-box__title">Жилье</h3>
+                    <h2 class="assortment-box__title">Жилье</h2>
                     <p class="assortment-box__text">Рекомендуем пожить в настоящем <br> мотеле, все как в кино!</p>
                 </section>
                 <section class="assortment-box">
                     <img src="img/burger.png" alt="burger" class="assortment-box__icon">
-                    <h3 class="assortment-box__title">ЕДА</h3>
+                    <h2 class="assortment-box__title">ЕДА</h2>
                     <p class="assortment-box__text">Всегда заказывай ФИРМЕННЫЙ БУРГЕР, <br> Вы НЕ разочаруетесь!</p>
                 </section>
                 <section class="assortment-box">
                     <img src="img/gift.png" alt="gift" class="assortment-box__icon">
-                    <h3 class="assortment-box__title">СУВЕНИРЫ</h3>
+                    <h2 class="assortment-box__title">СУВЕНИРЫ</h2>
                     <p class="assortment-box__text">Не только китайского, <br> но и местного производства!</p>
                 </section>
             </div>
             <div class="section-about  reset">
-                <img src="img/about-2.jpg" alt="about-2" class="section-about-img  float-left">
-                <div class="section-about-cont  float-right">
-                    <h2>ТАМ ЕСТЬ <br>Мост дьявола <span class="number">№2</span></h2>
-                    <p>Да, по нему можно пройти! <br>Если конечно вы осмелитесь</p>
+                <div class="section-about__cont  float-right">
+                    <h2 class="section-about__cont-title">ТАМ ЕСТЬ <br>Мост дьявола <span class="number">— 2 —</span></h2>
+                    <p class="section-about__cont-text">Да, по нему можно пройти! <br>Если конечно вы осмелитесь</p>
                 </div>
+                <img src="img/about-2.jpg" alt="about-1" class="section-about-img  float-right">
             </div>
-            <div class="advantages">
+            <div class="advantages reset">
                 <section class="advantages-box">
-                    <h3 class="advantages-box__title">НЕБОЛЬШАЯ <br>ПЛОЩАДЬ <span>№3</span></h3>
+                    <h2 class="advantages-box__title">НЕБОЛЬШАЯ <br>ПЛОЩАДЬ <span class="number">— №3 —</span></h2>
                     <p class="advantages-box__text">ВСЕ достопримеча-<br>тельности находятся очень близко</p>
                 </section>
                 <section class="advantages-box">
-                    <h3 class="advantages-box__title">КРАСИВАЯ <br>ДОРОГА <span>№4</span></h3>
+                    <h2 class="advantages-box__title">КРАСИВАЯ <br>ДОРОГА <span class="number">— №4 —</span></h2>
                     <p class="advantages-box__text">ЕХАТЬ В СЕДОНУ ИЗ ЛАС-ВЕГАСА совсем <br>НЕ СКУЧНО!</p>
                 </section>
                 <section class="advantages-box">
-                    <h3 class="advantages-box__title">МАЛО <br>ТУРИСТОВ <span>№5</span></h3>
+                    <h2 class="advantages-box__title">МАЛО <br>ТУРИСТОВ <span class="number">— №5— </span></h2>
                     <p class="advantages-box__text">Большинство едет в гранд каньон и <br>толпится там</p>
                 </section>
             </div>
@@ -81,21 +82,23 @@
             <div class="map">
                 <div class="map__search">
                     <div class="map__search-header">
-                        <h3>ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</h3>
+                        <h2>ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</h2>
                     </div>
                     <div class="map__search-body">
                         <form action="#" method="post" class="map__search-form">
-                            <label for="date" class="map__form-label">Дата заезда:</label>
-                            <input type="date" name="date" class="map__form-date" placeholder="24 Апреля 2014">
-                            <label for="date" class="map__form-label">Дата выезда:</label>
-                            <input type="date" name="date" class="map__form-date" placeholder="4 июля 2014">
-                            <label for="adult" class="map__form-label">Взрослые:</label>
-                            <div class="map__input">
-                                <input type="input" placeholder="2" name="adult" class="map__adult">
+                            <div class="map__form-box reset">
+                                <label for="date" class="map__form-label">Дата заезда:</label>
+                                <input type="date" name="date" class="map__form-date" placeholder="24 Апреля 2014">
                             </div>
-                            <label for="kids" class="map__form-label">Дети:</label>
-                            <div class="map__input">
-                                <input type="input" placeholder="0" name="adult" class="map__kids">
+                            <div class="map__form-box reset">
+                                <label for="date" class="map__form-label">Дата выезда:</label>
+                                <input type="date" name="date" class="map__form-date" placeholder="4 июля 2014">
+                            </div>
+                            <div class="map__form-box reset">
+                                <label for="adult" class="map__form-label">Взрослые:</label>           
+                                <input type="text" placeholder="2" name="adult" class="map__adult">                       
+                                <label for="kids" class="map__form-label--2">Дети:</label>  
+                                <input type="text" placeholder="0" name="adult" class="map__kids">
                             </div>
                             <button class="map__form-btn">Найти</button>
                         </form>
@@ -103,15 +106,15 @@
                 </div>
             </div>
         </div>
-        <footer class="page-footer">
+        <footer class="page-footer reset">
             <a href="#" class="page-footer__visit">#visitSEDONA</a>
             <div class="page-footer__social">
-                <a href="#" class="page-footer__social-icon">twiter</a>
-                <a href="#" class="page-footer__social-icon">facebook</a>
-                <a href="#" class="page-footer__social-icon">instagram</a>
+                <a href="#" class="page-footer__social-icon  twiter">twiter</a>
+                <a href="#" class="page-footer__social-icon  facebook">facebook</a>
+                <a href="#" class="page-footer__social-icon  instagram">instagram</a>
             </div>
             <div class="page-footer__website">
-              WEBSITE by <a href="#" class="page-footer__website-icon-a">А</a> for <a href="#" class="page-footer__website-icon-html">html</a>
+                <span>WEBSITE by </span><a href="#" class="page-footer__website-icon-a">А</a><span> for</span><a href="#" class="page-footer__website-icon-html">html</a>
             </div>
         </footer>
     </div>

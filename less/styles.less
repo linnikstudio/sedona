@@ -1,0 +1,38 @@
+@import "variables.less";
+
+*{
+	margin: 0;
+    padding:0;
+}
+
+body{
+    font-family: @font-family-base;
+    font-size:@font-size-base;
+    line-height: 24px;
+    color:#333;
+    background: #eaeaea;
+}
+
+h1,h2{
+    font-size: 1.5em;
+    line-height: 26px;
+    font-weight: 700;
+}
+
+.wrap{
+    margin: 0 auto;
+    width: @base-width;
+    background: #fff;
+}
+
+.reset{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+@import "layers/header.less";
+@import "layers/body.less";
+@import "layers/footer.less";
+
+
